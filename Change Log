@@ -1,0 +1,3 @@
+______6/20/2024______
+- Started the project. Will be trying to develop something similar in Django once I get that stuff hammered out.
+    + (Known Issue) Strangely enough, I'm having the same issue with signals here as I am my game library application. Looking into this might benefit both applications.
