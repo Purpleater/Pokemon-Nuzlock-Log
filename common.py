@@ -4,6 +4,8 @@ import sys
 
 signalToMenuIndex = {
     0: "Home",
-    1: "Edit Game Save",
-    2: "Credits"
+    1: "Member Roster",
+    2: "Edit Game Save",
+    3: "Credits"
 }
+

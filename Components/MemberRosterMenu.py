@@ -1,14 +1,16 @@
 from common import *
 
-class EditGameSaveMenu(QWidget):
+
+class MemberRosterMenu(QWidget):
     returnSignal = pyqtSignal(int)
+
     def __init__(self):
         super().__init__()
 
         # create layout
         self.menuLayout = QVBoxLayout()
 
-        self.label = QLabel("This is the edit game save menu!")
+        self.label = QLabel("This is the member roster!")
         self.backButton = QPushButton("Back")
 
         self.backButton.clicked.connect(self.returnToHomeSignal)
