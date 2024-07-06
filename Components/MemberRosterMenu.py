@@ -11,11 +11,14 @@ class MemberRosterMenu(QWidget):
         self.menuLayout = QVBoxLayout()
 
         self.label = QLabel("This is the member roster!")
+        self.portraitImage = QLabel()
+
         self.backButton = QPushButton("Back")
 
         self.backButton.clicked.connect(self.returnToHomeSignal)
 
         self.menuLayout.addWidget(self.label)
+        self.menuLayout.addWidget(self.portraitImage)
         self.menuLayout.addWidget(self.backButton)
         self.setLayout(self.menuLayout)
 
