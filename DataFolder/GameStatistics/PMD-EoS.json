@@ -1,0 +1,88 @@
+{
+  "dungeonList": [
+    {
+      "dungeonID": -1,
+      "dungeonName": "Treasure Town",
+      "dungeonPokemonList": [],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 1,
+      "dungeonName": "Beach Cave",
+      "dungeonPokemonList": [90,140,222,422.2],
+      "recruitable": "No"
+    },
+    {
+      "dungeonID": 2,
+      "dungeonName": "Drenched Bluff",
+      "dungeonPokemonList": [345,347,422.1,433],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 3,
+      "dungeonName": "Mt. Bristle",
+      "dungeonPokemonList": [66,74,84,167,396,30,33],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 4,
+      "dungeonName": "Waterfall Cave",
+      "dungeonPokemonList": [54,60,88,114,194,270,283,339,340],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 5,
+      "dungeonName": "Apple Woods",
+      "dungeonPokemonList": [10,187,406,412.2,43,12,46,13,103,415,44,15,14],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 6,
+      "dungeonName": "Craggy Coast",
+      "dungeonPokemonList": [363,98,147,278,423.2,364],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 7,
+      "dungeonName": "Mt. Horn",
+      "dungeonPokemonList": [285,47,138,177,267,268,49,142,204,438],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 8,
+      "dungeonName": "Foggy Forest",
+      "dungeonPokemonList": [163,206,235,420,188,263,417,164,234,427,127,286],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 9,
+      "dungeonName": "Steam Cave",
+      "dungeonPokemonList": [83,193,209,218,240,322,402,210,213,313,314,126,480],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 10,
+      "dungeonName": "Amp Plains",
+      "dungeonPokemonList": [311,312,179,231,239,403,203,145,180,469,172,25,125,128,85,309,404,405,181],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 11,
+      "dungeonName": "Northern Desert",
+      "dungeonPokemonList": [104, 343, 246, 304, 331, 27, 328, 455, 11, 305, 332],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 12,
+      "dungeonName": "Quicksand Cave",
+      "dungeonPokemonList": [2920,329,28,247,451,303,248,449,291,481],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 13,
+      "dungeonName": "Crystal Cave",
+      "dungeonPokemonList": [75,336,374,412,447,408,232,410,76],
+      "recruitable": "Yes"
+    }
+  ]
+}

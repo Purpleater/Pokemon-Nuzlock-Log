@@ -1,3 +1,7 @@
+______8/11/2024______
+- Created various common functions to search through provided data
+- Added more relevant json files, including the starting portions of basic data for PMD EoS and a nuzlock challenge I'm personally attempting as debugging fodder
+
 ______6/29/2024______
 - Solved signal problem
 - Implemented menu navigation

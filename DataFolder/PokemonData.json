@@ -2111,14 +2111,24 @@
             "imageID": "P_421"
         },
         {
-            "id": 422,
-            "name": "Shellos",
-            "imageID": "P_422"
+            "id": 422.1,
+            "name": "Shellos (West)",
+            "imageID": "P_422.1"
         },
         {
-            "id": 423,
-            "name": "Gastrodon",
-            "imageID": "P_423"
+            "id": 422.2,
+            "name": "Shellos (East)",
+            "imageID": "P_422.2"
+        },
+        {
+            "id": 423.1,
+            "name": "Gastrodon (West)",
+            "imageID": "P_423.1"
+        },
+        {
+            "id": 423.2,
+            "name": "Gastrodon (East)",
+            "imageID": "P_423.2"
         },
         {
             "id": 424,

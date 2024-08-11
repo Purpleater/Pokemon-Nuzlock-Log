@@ -1,0 +1,36 @@
+{
+  "saveName": "PMD EoS French Nuzlock",
+  "gameOfSave": "PMD-EoS",
+  "partyRoster": [
+    {
+      "name": "Tenshiworm",
+      "speciesID": 13,
+      "gender": "Male",
+      "recruitmentLocation": -1
+    },
+    {
+      "name": "Uri Geller",
+      "speciesID": 64,
+      "gender": "Male",
+      "recruitmentLocation": 15
+    },
+    {
+      "name": "Bailey",
+      "speciesID": 152,
+      "gender": "Female",
+      "recruitmentLocation": 42
+    },
+    {
+      "name": "Anxiety",
+      "speciesID": 188,
+      "gender": "Male",
+      "recruitmentLocation": 38
+    },
+    {
+      "name": "OH THOSE",
+      "speciesID": 193,
+      "gender": "Female",
+      "recruitmentLocation": 37
+    }
+  ]
+}
