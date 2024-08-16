@@ -1,3 +1,6 @@
+______8/16/2024______
+- Added table widget to member roster that now loads basic party member information
+
 ______8/11/2024______
 - Created various common functions to search through provided data
 - Added more relevant json files, including the starting portions of basic data for PMD EoS and a nuzlock challenge I'm personally attempting as debugging fodder

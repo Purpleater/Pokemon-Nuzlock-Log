@@ -31,6 +31,108 @@
       "speciesID": 193,
       "gender": "Female",
       "recruitmentLocation": 37
+    },
+    {
+      "name": "Nyss",
+      "speciesID":  288,
+      "gender": "Male",
+      "recruitmentLocation": 44
+    },
+    {
+      "name": "Smeeb",
+      "speciesID": 238,
+      "gender": "Female",
+      "recruitmentLocation": 44
+    },
+    {
+      "name": "Cinnamon",
+      "speciesID": 240,
+      "gender": "Male",
+      "recruitmentLocation": 9
+    },
+    {
+      "name": "Spaghetti",
+      "speciesID": 270,
+      "gender": "Female",
+      "recruitmentLocation": -1
+    },
+    {
+      "name": "Chad",
+      "speciesID": 270,
+      "gender": "Male",
+      "recruitmentLocation": 35
+    },
+    {
+      "name": "Veta",
+      "speciesID": 290,
+      "gender": "Female",
+      "recruitmentLocation": 46
+    },
+    {
+      "name": "A-A-RON",
+      "speciesID": 304,
+      "gender": "Female",
+      "recruitmentLocation": 11
+    },
+    {
+      "name": "Sparky",
+      "speciesID": 311,
+      "gender": "Female",
+      "recruitmentLocation": 10
+    },
+    {
+      "name": "Core",
+      "speciesID": 315,
+      "gender": "Male",
+      "recruitmentLocation": "SKY PEAK"
+    },
+    {
+      "name": "Gloria",
+      "speciesID": 347,
+      "gender": "Male",
+      "recruitmentLocation": -1
+    },
+    {
+      "name": "Litharoid",
+      "speciesID": 363,
+      "gender": "Female",
+      "recruitmentLocation": 6
+    },
+    {
+      "name": "Butters",
+      "speciesID": 371,
+      "gender": "Male",
+      "recruitmentLocation": 14
+    },
+    {
+      "name": "Fer",
+      "speciesID": 374,
+      "gender": "-",
+      "recruitmentLocation": 13
+    },
+    {
+      "name": "Kowalski",
+      "speciesID": 393,
+      "gender": "Female",
+      "recruitmentLocation": 19
+    },
+    {
+      "name": "Pache",
+      "speciesID": 417,
+      "gender": "Male",
+      "recruitmentLocation": 8
+    },
+    {
+      "name": "Roland",
+      "speciesID": 422.1,
+      "gender": "Male",
+      "recruitmentLocation": 2
+    },
+    {
+      "name": "Percival",
+      "speciesID": 451,
+      "gender": "Male",
+      "recruitmentLocation": 12
     }
   ]
 }

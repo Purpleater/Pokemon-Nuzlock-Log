@@ -83,6 +83,48 @@
       "dungeonName": "Crystal Cave",
       "dungeonPokemonList": [75,336,374,412,447,408,232,410,76],
       "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 14,
+      "dungeonName": "Crystal Crossing",
+      "dungeonPokemonList": [371,419,413,431,359,362,478,482],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 15,
+      "dungeonName": "Treeshroud Forest",
+      "dungeonPokemonList": [64,280,421,229,38,65,281,416],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 16,
+      "dungeonName": "Brine Cave",
+      "dungeonPokemonList": [86,138,99,279,423,72,87,120,148,365],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 17,
+      "dungeonName": "Mystifying Forest",
+      "dungeonPokemonList": [1,2,11,19,20,21,29,32,48,69,70,102,109,123,133,152,153,190,216,265,273,274,315,316,330,387,388,389,399,401,434,435,446,251,491],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 18,
+      "dungeonName": "Blizzard Island",
+      "dungeonPokemonList": [55,183,184,215,221,225,238,288,298,299,333,351,361,393],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 19,
+      "dungeonName": "Crevice Cave",
+      "dungeonPokemonList": [55,124,183,184,215,220,221,225,238,287,288,289,298,299,333,334,335,361,393,394,395,459,461,471,473,491],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 20,
+      "dungeonName": "Surrounded Sea",
+      "dungeonPokemonList": [73,80,90,116,117,121,131,199,211,223,224,230,319,320,366,456,249],
+      "recruitable": "Yes"
     }
   ]
 }

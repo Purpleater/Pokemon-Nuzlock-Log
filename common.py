@@ -17,7 +17,13 @@ gameStatsFileNameIndex = {
 }
 
 
-def loadPokemonData():
+def loadJson(fileString):
+    with open(f"{fileString}.json", 'r') as file:
+        data = json.load(file)
+        return data
+
+
+def loadGeneralPokemonData():
     with open('DataFolder/PokemonData.json', 'r') as file:
         pokemonData = json.load(file)["pokemonList"]
         return pokemonData
@@ -30,7 +36,7 @@ def loadGameStats(gameName):
 
 
 def getPokemonByID(id):
-    pokemonList = loadPokemonData()
+    pokemonList = loadGeneralPokemonData()
     result = next((pokemon for pokemon in pokemonList if pokemon["id"] == id), None)
     return result
 
