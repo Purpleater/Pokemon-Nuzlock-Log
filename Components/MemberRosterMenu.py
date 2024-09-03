@@ -4,6 +4,11 @@ from common import *
 class MemberRosterMenu(QWidget):
     returnSignal = pyqtSignal(int)
 
+    genderKey ={
+        "Male": "♂",
+        "Female": "♀",
+        "-": "—"
+    }
     def __init__(self):
         super().__init__()
 
@@ -11,34 +16,57 @@ class MemberRosterMenu(QWidget):
 
         # create layout
         self.menuLayout = QVBoxLayout()
+        self.mainContainer = QHBoxLayout()
+        self.memberDetails = QVBoxLayout()
 
-        self.label = QLabel("This is the member roster!")
-        self.memberList = QTableWidget(len(self.memberListRaw), 2, self)
-
+        # widgets
+        self.memberList = QListWidget()
         self.backButton = QPushButton("Back")
 
-        self.backButton.clicked.connect(self.returnToHomeSignal)
+        self.memberName = QLabel("meese")
+        self.memberGender = QLabel("moose")
+        self.memberSpeciesName = QLabel("mess")
+        self.memberSpeciesImage = QLabel()
 
-        self.menuLayout.addWidget(self.label)
-        self.menuLayout.addWidget(self.memberList)
+
+        # connect widgets to event procedures
+        self.backButton.clicked.connect(self.returnToHomeSignal)
+        self.memberList.itemClicked.connect(self.showMemberInformation)
+
+        # add widgets to the mainContainer
+        self.mainContainer.addWidget(self.memberList)
+        self.mainContainer.addLayout(self.memberDetails)
+
+        # add widgets to memberDetails
+        self.memberDetails.addWidget(self.memberName)
+        self.memberDetails.addWidget(self.memberGender)
+        self.memberDetails.addWidget(self.memberSpeciesName)
+        # set layouts
+        self.menuLayout.addLayout(self.mainContainer)
         self.menuLayout.addWidget(self.backButton)
         self.setLayout(self.menuLayout)
-        self.populateTable()
+        self.populateMemberList()
 
     def returnToHomeSignal(self):
         self.returnSignal.emit(0)
 
-    def populateTable(self):
 
+    def populateMemberList(self):
         for i in range(len(self.memberListRaw)):
-            partyMember = self.memberListRaw[i]
+            self.memberList.addItem(self.memberListRaw[i]["name"])
 
-            memberName = QTableWidgetItem(partyMember["name"])
-            memberName.setFlags(memberName.flags() & Qt.ItemIsEditable)
-            self.memberList.setItem(i, 0, memberName)
+    def showMemberInformation(self):
+        memberName = self.memberList.selectedItems()[0].text()
+        memberInfo = next((pokemon for pokemon in self.memberListRaw if pokemon["name"] == memberName))
+        memberSpecies = getPokemonByID(memberInfo['speciesID'])
 
-            print(partyMember["speciesID"])
-            memberSpecies = QTableWidgetItem(getPokemonByID(partyMember["speciesID"])["name"])
-            memberSpecies.setFlags(memberSpecies.flags() & Qt.ItemIsEditable)
-            self.memberList.setItem(i, 1, memberSpecies)
+        self.memberName.setText(f"Name: {memberInfo['name']}")
+        self.memberGender.setText(f"Gender: {self.genderKey[memberInfo['gender']]}")
+        self.memberSpeciesName.setText(f"Species: {memberSpecies['name']}")
+
+        memberPortrait = QPixmap(f"PortraitDirectory/{memberSpecies['imageID']}")
+        self.memberSpeciesImage.setPixmap(memberPortrait)
+        self.memberSpeciesImage.update()
+
+
 

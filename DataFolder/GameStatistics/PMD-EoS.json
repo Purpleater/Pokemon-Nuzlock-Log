@@ -125,6 +125,138 @@
       "dungeonName": "Surrounded Sea",
       "dungeonPokemonList": [73,80,90,116,117,121,131,199,211,223,224,230,319,320,366,456,249],
       "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 21,
+      "dungeonName": "Miracle Sea",
+      "dungeonPokemonList": [73,80,91,116,117,121,170,171,199,211,223,224,226,230,319,320,346,366,367,368,369,370,456,457,458,491,489],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 22,
+      "dungeonName": "Aegis Cave",
+      "dungeonPokemonList": [41,42,67,68,169,201,378,377,379,486],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 23,
+      "dungeonName": "Mt. Travail",
+      "dungeonPokemonList": [22,56,57,95,105,107,115,122,161,162,165,166,212,214,217,236,292,307,308,400,491],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 24,
+      "dungeonName": "Spacial Rift",
+      "dungeonPokemonList": [441,452,178,475,64,135,430,6,302,462,466,338,358,207,436,454,380,357,491,477,96,442,137,381,97,337,484],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 25,
+      "dungeonName": "Dark Crater",
+      "dungeonPokemonList": [4,155,39,450,322,218,58,77,255,5,136,156,256,391,323,78,59,219,464,467,6,157,392,324,429,257],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 26,
+      "dungeonName": "Concealed Ruins",
+      "dungeonPokemonList": [16,100,261,276,294,31,110,197,198,301,17,353,101,262,277,295,18],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 27,
+      "dungeonName": "Marine Resort",
+      "dungeonPokemonList": [35,36,39,40,52,53,80,98,108,140,141,147,173,174,182,196,202,209,222,231,235,241,242,278,279,293,316,317,325,326,327,260,418,424,454,463],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 28,
+      "dungeonName": "Bottomless Sea",
+      "dungeonPokemonList": [73,80,116,117,121,130,131,199,211,223,224,230,320,321,366,256,382],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 29,
+      "dungeonName": "Shimmer Desert",
+      "dungeonPokemonList": [23,24,27,28,34,50,51,66,185,445,464,383],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 30,
+      "dungeonName": "Mt. Avalanche",
+      "dungeonPokemonList": [55,124,183,184,215,220,221,225,238,287,288,289,298,299,333,334,335,361,393,394,395,461,473,144],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 31,
+      "dungeonName": "Giant Volcano",
+      "dungeonPokemonList": [4,5,58,59,77,78,136,155,156,218,219,255,256,322,323,390,391,146,485],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 32,
+      "dungeonName": "World Abyss",
+      "dungeonPokemonList": [276,198,16,100,261,17,31,101,110,197,294,301,277,295,262,19,487],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 33,
+      "dungeonName": "Sky Stairway",
+      "dungeonPokemonList": [26,37,81,82,29,92,93,94,112,132,189,200,205,208,344,354,355,372,375,414,424,425442,444,465,468,470,472,476,477,150,384],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 34,
+      "dungeonName": "Mystery Jungle",
+      "dungeonPokemonList": [1,2,3,11,19,20,21,29,32,45,48,69,70,71,102,109,123,133,143,152,153,154,190,191,192,216,252,253,254,265,266,268,273,274,315,316,330,387,388,389,399,407,428,234,235,446,151],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 35,
+      "dungeonName": "Serenity River",
+      "dungeonPokemonList": [60,194,270,339,284],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 36,
+      "dungeonName": "Landslide Cave",
+      "dungeonPokemonList": [49,181,210,213,269,413,443],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 37,
+      "dungeonName": "Lush Prairie",
+      "dungeonPokemonList": [102,188,193,266,267,268,412.1],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 38,
+      "dungeonName": "Tiny Meadow",
+      "dungeonPokemonList": [188,286,397],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 39,
+      "dungeonName": "Labyrinth Cave",
+      "dungeonPokemonList": [30,33,42,66,444],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 40,
+      "dungeonName": "Oran Forest",
+      "dungeonPokemonList": [10,43,187,265,296,106,412.3],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 41,
+      "dungeonName": "Lake Afar",
+      "dungeonPokemonList": [7,8,9,61,62,79,118,119,129,134,158,159,160,186,195,258,259,260,271,272,341,342,349,350],
+      "recruitable": "Yes"
+    },
+    {
+      "dungeonID": 42,
+      "dungeonName": "Happy Outlook",
+      "dungeonPokemonList": [11,43,52,53,103,113,152,175,176,191,192,242,273,300,316,332,387,406,439,440,380],
+      "recruitable": "Yes"
     }
   ]
 }

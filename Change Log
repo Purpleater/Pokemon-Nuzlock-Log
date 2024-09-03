@@ -1,3 +1,9 @@
+______9/2/2024______
+- Continued to fill out the PMD EoS information for utilization purposes.
+- Restructured the member list to allow for the selection of individual members
+- Still trying to learn how to add portraits.
+- Acquired god
+
 ______8/16/2024______
 - Added table widget to member roster that now loads basic party member information
 
@@ -12,3 +18,5 @@ ______6/29/2024______
 ______6/20/2024______
 - Started the project. Will be trying to develop something similar in Django once I get that stuff hammered out.
     + (Known Issue) Strangely enough, I'm having the same issue with signals here as I am my game library application. Looking into this might benefit both applications.
+
+

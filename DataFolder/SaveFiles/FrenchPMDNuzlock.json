@@ -34,7 +34,7 @@
     },
     {
       "name": "Nyss",
-      "speciesID":  288,
+      "speciesID":  228,
       "gender": "Male",
       "recruitmentLocation": 44
     },
@@ -42,7 +42,7 @@
       "name": "Smeeb",
       "speciesID": 238,
       "gender": "Female",
-      "recruitmentLocation": 44
+      "recruitmentLocation": 18
     },
     {
       "name": "Cinnamon",
