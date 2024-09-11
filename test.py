@@ -6,5 +6,10 @@ dungeonPokemonList = (getLocationByID_PMD("Pokemon Mystery Dungeon Explorers of 
 for pokemon in dungeonPokemonList:
     print(getPokemonByID(pokemon))
 
-
-print(getPokemonByID(900))
+newArray = []
+'''
+for pokemonName in array:
+    pokemonList = loadGeneralPokemonData()
+    result = next((pokemon for pokemon in pokemonList if pokemon["name"] == pokemonName), None)
+    newArray.append((result["id"]))
+'''

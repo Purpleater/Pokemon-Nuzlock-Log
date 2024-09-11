@@ -81,10 +81,10 @@
       "recruitmentLocation": 10
     },
     {
-      "name": "Core",
+      "name": "Cora",
       "speciesID": 315,
       "gender": "Male",
-      "recruitmentLocation": "SKY PEAK"
+      "recruitmentLocation": -2
     },
     {
       "name": "Gloria",
@@ -133,6 +133,18 @@
       "speciesID": 451,
       "gender": "Male",
       "recruitmentLocation": 12
+    },
+    {
+      "name": "God",
+      "speciesID": 138,
+      "gender": "Male",
+      "recruitmentLocation": -1
+    },
+    {
+      "name": "Potato",
+      "speciesID": 383,
+      "gender": "-",
+      "recruitmentLocation": 29
     }
   ]
 }

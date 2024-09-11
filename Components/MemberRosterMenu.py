@@ -4,11 +4,12 @@ from common import *
 class MemberRosterMenu(QWidget):
     returnSignal = pyqtSignal(int)
 
-    genderKey ={
+    genderKey = {
         "Male": "♂",
         "Female": "♀",
         "-": "—"
     }
+
     def __init__(self):
         super().__init__()
 
@@ -26,8 +27,8 @@ class MemberRosterMenu(QWidget):
         self.memberName = QLabel("meese")
         self.memberGender = QLabel("moose")
         self.memberSpeciesName = QLabel("mess")
+        self.memberOriginLocation = QLabel("drugs")
         self.memberSpeciesImage = QLabel()
-
 
         # connect widgets to event procedures
         self.backButton.clicked.connect(self.returnToHomeSignal)
@@ -41,6 +42,9 @@ class MemberRosterMenu(QWidget):
         self.memberDetails.addWidget(self.memberName)
         self.memberDetails.addWidget(self.memberGender)
         self.memberDetails.addWidget(self.memberSpeciesName)
+        self.memberDetails.addWidget(self.memberOriginLocation)
+        self.memberDetails.addWidget(self.memberSpeciesImage)
+
         # set layouts
         self.menuLayout.addLayout(self.mainContainer)
         self.menuLayout.addWidget(self.backButton)
@@ -49,7 +53,6 @@ class MemberRosterMenu(QWidget):
 
     def returnToHomeSignal(self):
         self.returnSignal.emit(0)
-
 
     def populateMemberList(self):
         for i in range(len(self.memberListRaw)):
@@ -63,10 +66,8 @@ class MemberRosterMenu(QWidget):
         self.memberName.setText(f"Name: {memberInfo['name']}")
         self.memberGender.setText(f"Gender: {self.genderKey[memberInfo['gender']]}")
         self.memberSpeciesName.setText(f"Species: {memberSpecies['name']}")
+        self.memberOriginLocation.setText(f"Recruited In: {getLocationByID_PMD('Pokemon Mystery Dungeon Explorers of Sky', memberInfo['recruitmentLocation'])['dungeonName']}")
 
-        memberPortrait = QPixmap(f"PortraitDirectory/{memberSpecies['imageID']}")
+        memberPortrait = QPixmap(f"PortraitDirectory/{memberSpecies['imageID']}.png")
         self.memberSpeciesImage.setPixmap(memberPortrait)
         self.memberSpeciesImage.update()
-
-
-
