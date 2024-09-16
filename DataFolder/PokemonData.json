@@ -2061,13 +2061,33 @@
             "imageID": "P_411"
         },
         {
-            "id": 412,
-            "name": "Burmy",
+            "id": 412.1,
+            "name": "Burmy (Plant Cloak)",
             "imageID": "P_412"
         },
         {
-            "id": 413,
-            "name": "Wormadam",
+            "id": 412.2,
+            "name": "Burmy (Sand Cloak)",
+            "imageID": "P_412"
+        },
+        {
+            "id": 412.3,
+            "name": "Burmy (Trash Cloak)",
+            "imageID": "P_412"
+        },
+        {
+            "id": 413.1,
+            "name": "Wormadam (Plant Cloak)",
+            "imageID": "P_413"
+        },
+        {
+            "id": 413.2,
+            "name": "Wormadam (Sand Cloak)",
+            "imageID": "P_413"
+        },
+        {
+            "id": 413.3,
+            "name": "Wormadam (Trash Cloak)",
             "imageID": "P_413"
         },
         {

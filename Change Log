@@ -1,3 +1,8 @@
+______9/16/2024______
+- Added all of the dungeons to the PMD-EoS list instead of just the ones that allowed for recruitment
+- Modified some issues with the pokemon Burmy and Wormadam, in where their individual cloak forms had not yet been implemented into the pokemon roster
+- Also just finished off the the entire PMD-EoS dungeon list in general
+
 ______9/11/2024______
 - Managed to get portraits to work in the member roster
 - Added more data to test json
@@ -22,6 +27,6 @@ ______6/29/2024______
 
 ______6/20/2024______
 - Started the project. Will be trying to develop something similar in Django once I get that stuff hammered out.
-    + (Known Issue) Strangely enough, I'm having the same issue with signals here as I am my game library application. Looking into this might benefit both applications.
+    + (Known Issue) Strangely enough, I'm having the same issue with signals here as I am with my game library application. Looking into this might benefit both applications.
 
 

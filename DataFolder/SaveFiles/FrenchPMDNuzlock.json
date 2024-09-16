@@ -1,5 +1,5 @@
 {
-  "saveName": "PMD EoS French Nuzlock",
+  "saveName": "PMD EoS French Playthrough",
   "gameOfSave": "PMD-EoS",
   "partyRoster": [
     {
@@ -12,37 +12,37 @@
       "name": "Uri Geller",
       "speciesID": 64,
       "gender": "Male",
-      "recruitmentLocation": 15
+      "recruitmentLocation": 20
     },
     {
       "name": "Bailey",
       "speciesID": 152,
       "gender": "Female",
-      "recruitmentLocation": 42
+      "recruitmentLocation": 50
     },
     {
       "name": "Anxiety",
       "speciesID": 188,
       "gender": "Male",
-      "recruitmentLocation": 38
+      "recruitmentLocation": 46
     },
     {
       "name": "OH THOSE",
       "speciesID": 193,
       "gender": "Female",
-      "recruitmentLocation": 37
+      "recruitmentLocation": 45
     },
     {
       "name": "Nyss",
       "speciesID":  228,
       "gender": "Male",
-      "recruitmentLocation": 44
+      "recruitmentLocation": 52
     },
     {
       "name": "Smeeb",
       "speciesID": 238,
       "gender": "Female",
-      "recruitmentLocation": 18
+      "recruitmentLocation": 25
     },
     {
       "name": "Cinnamon",
@@ -60,13 +60,13 @@
       "name": "Chad",
       "speciesID": 270,
       "gender": "Male",
-      "recruitmentLocation": 35
+      "recruitmentLocation": 43
     },
     {
       "name": "Veta",
       "speciesID": 290,
       "gender": "Female",
-      "recruitmentLocation": 46
+      "recruitmentLocation": 54
     },
     {
       "name": "A-A-RON",
@@ -114,7 +114,7 @@
       "name": "Kowalski",
       "speciesID": 393,
       "gender": "Female",
-      "recruitmentLocation": 19
+      "recruitmentLocation": 26
     },
     {
       "name": "Pache",
@@ -144,7 +144,7 @@
       "name": "Potato",
       "speciesID": 383,
       "gender": "-",
-      "recruitmentLocation": 29
+      "recruitmentLocation": 37
     }
   ]
 }

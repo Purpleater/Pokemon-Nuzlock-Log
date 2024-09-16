@@ -16,13 +16,15 @@ class MemberRosterMenu(QWidget):
         self.memberListRaw = loadJson("DataFolder/SaveFiles/FrenchPMDNuzlock")["partyRoster"]
 
         # create layout
-        self.menuLayout = QVBoxLayout()
+        self.menuLayout = QGridLayout()
         self.mainContainer = QHBoxLayout()
         self.memberDetails = QVBoxLayout()
+        self.memberListLayout = QVBoxLayout()
 
         # widgets
         self.memberList = QListWidget()
         self.backButton = QPushButton("Back")
+        self.newMemberButton = QPushButton("Add New Member")
 
         self.memberName = QLabel("meese")
         self.memberGender = QLabel("moose")
@@ -33,6 +35,10 @@ class MemberRosterMenu(QWidget):
         # connect widgets to event procedures
         self.backButton.clicked.connect(self.returnToHomeSignal)
         self.memberList.itemClicked.connect(self.showMemberInformation)
+
+        # add widgets to memberListLayout
+        self.memberListLayout.addWidget(self.memberList)
+        self.memberListLayout.addWidget(self.newMemberButton)
 
         # add widgets to the mainContainer
         self.mainContainer.addWidget(self.memberList)
@@ -45,9 +51,13 @@ class MemberRosterMenu(QWidget):
         self.memberDetails.addWidget(self.memberOriginLocation)
         self.memberDetails.addWidget(self.memberSpeciesImage)
 
+
         # set layouts
-        self.menuLayout.addLayout(self.mainContainer)
-        self.menuLayout.addWidget(self.backButton)
+        self.menuLayout.addLayout(self.memberListLayout, 0, 0)
+        self.menuLayout.addLayout(self.mainContainer,0, 1)
+        self.menuLayout.addWidget(self.backButton, 1, 0)
+        self.mainContainer.setAlignment(Qt.AlignRight)
+
         self.setLayout(self.menuLayout)
         self.populateMemberList()
 
@@ -71,3 +81,4 @@ class MemberRosterMenu(QWidget):
         memberPortrait = QPixmap(f"PortraitDirectory/{memberSpecies['imageID']}.png")
         self.memberSpeciesImage.setPixmap(memberPortrait)
         self.memberSpeciesImage.update()
+

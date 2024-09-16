@@ -1,15 +1,15 @@
 from common import *
 
-gameInformation = loadGameStats('Pokemon Mystery Dungeon Explorers of Sky')
+def loadSaveList():
+    saveList = os.listdir("DataFolder/SaveFiles")
+    for save in saveList:
+        print(save)
 
-dungeonPokemonList = (getLocationByID_PMD("Pokemon Mystery Dungeon Explorers of Sky", 4))["dungeonPokemonList"]
-for pokemon in dungeonPokemonList:
-    print(getPokemonByID(pokemon))
+loadSaveList()
 
-newArray = []
-'''
-for pokemonName in array:
-    pokemonList = loadGeneralPokemonData()
-    result = next((pokemon for pokemon in pokemonList if pokemon["name"] == pokemonName), None)
-    newArray.append((result["id"]))
-'''
+array = [173, 1, 16, 69, 90, 152, 155, 252, 255, 339, 10, 258, 325, 102, 170, 295, 340, 434, 117, 158, 316, 433, 234, 399, 412.1, 29, 19, 264, 270, 246, 121, 175, 35, 104, 50, 304, 66, 70, 291, 187, 202, 21, 44, 466, 280, 299, 73, 133, 134, 184, 269, 343, 307, 313, 348, 97, 177, 199, 103, 434, 436, 474, 123, 163, 287, 311, 312, 427, 195, 185, 17, 24, 19, 43, 192, 460, 351, 425, 281, 285, 374, 48, 165, 83, 58, 60, 328, 368, 100, 193, 439, 157, 46, 26, 27, 220, 196, 298, 205, 211, 205, 213, 101, 106, 107, 239, 322, 428, 452, 262, 219, 132, 409, 78, 324, 111, 334, 402, 362, 221, 45, 162, 305, 374, 204, 410, 413.1, 363, 142, 373, 339, 335, 432, 364, 227, 365, 404, 411, 48, 203, 284, 288, 414, 240, 109, 76, 112, 31, 47, 355, 473, 217, 75, 393, 419, 34, 233, 296, 323, 448, 467, 429, 445, 353, 212, 338]
+
+
+for i in range (len(array)):
+    pokemon = getPokemonByID(array[i])
+    print(pokemon["name"])

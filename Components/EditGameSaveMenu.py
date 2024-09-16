@@ -9,6 +9,7 @@ class EditGameSaveMenu(QWidget):
         self.menuLayout = QVBoxLayout()
 
         self.label = QLabel("This is the edit game save menu!")
+        self.saveList = QListWidget
         self.backButton = QPushButton("Back")
 
         self.backButton.clicked.connect(self.returnToHomeSignal)
@@ -19,3 +20,7 @@ class EditGameSaveMenu(QWidget):
 
     def returnToHomeSignal(self):
         self.returnSignal.emit(0)
+
+    def loadSaveList(self):
+        with open("Datafolder/SaveFiles", 'r') as file:
+            print(file)

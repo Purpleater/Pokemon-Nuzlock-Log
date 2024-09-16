@@ -42,7 +42,7 @@ class MainApplication(QMainWindow):
         self.centralWidget.setLayout(self.mainLayout)
         self.setCentralWidget(self.centralWidget)
 
-        self.setGeometry(200, 200, 300, 300)
+        self.setGeometry(200, 200, 350, 350)
         self.showMenu(0)
 
     def showMenu(self, index):
